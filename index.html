@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="main.js" defer></script>
+ 
+</head>
+<body>
+    <div class="bars" style="padding: 10px; width: 100%; background: #000000; text-align: center; ">
+        <i style="color: white;" class="fa-solid fa-bars"></i>
+       
+    </div>
+    <header>
+        <div class="links">
+            <a href="#home" class="select" onclick="select(0)">Home</a>
+            <a href="#about"  onclick="select(1)">About</a>
+            <a href="#projects"  onclick="select(2)">Projects</a>
+            <a href="#contact"  onclick="select(3)">Contact Me</a>
+        </div>
+    </header>
+    <div class="container">
+        <section id="home">
+            <div>
+                <h1 style="width: fit-content; color: white; background-color: #e7a930; padding: 5px; border-radius: 4px;" >
+                    Akchiche Mohamed Aymen
+                </h1>
+                <h1> I am a <span>Front End Developer</span></h1>
+                <div>
+                    <h1 style="display:inline"> Front End Developer</h1>,with knowledge in web development,<br> I offer the best Projects
+                    resulting in quality work. <br> Iam currently  a computer science student At Kasdi Merbah Univ , Ouargla
+                </div>
+                <button> Hire Me</button>
+            </div>
+            <img src="profile.jpg" alt="">
+        </section>
+   
+        <section id="about">
+                <h1 class='title'>About Me</h1>
+                <div class="content">
+                    <div class="description" >
+                        <h2 style="text-align: center; margin-bottom: 10px;">My Introduction</h2>
+                        <p>I am good in Html5 , Css , JavaScript and Tailwind Css
+                            wich allows me to implement interactive features . Additionally
+                            I have experience working with clients
+                        </p>
+                    </div>
+                   <div>
+                    <h2>Skills</h2>
+                    <div id="skills"></div>
+                   </div>
+                </div>
+        </section>
+        <section id="projects">
+            <h1 class="title">My Projects</h1>
+            <div class="projects"></div>
+        </section>
+        <footer id="contact">
+            <h1 class="title"> Contact Me</h1>
+            <div>
+                <a href="mailto:akchiche.mohamedaymen@gmail.com"><i class="fa-solid fa-envelope" title="email"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100084970860507"><i class="fa-brands fa-facebook-f" title="facebook"></i></a>
+                <a href="https://github.com/Akchiche-Mohamed-Aymen"><i class="fa-brands fa-github"title="github"></i></a>
+            </div>
+
+        </footer>
+    </div>
+</body>
+</html>
