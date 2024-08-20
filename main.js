@@ -48,6 +48,12 @@ const projectsItems = [
           url :'https://66bfa9514e548995928cee87--brilliant-klepon-3cf69a.netlify.app/',
           gitUrl : 'https://github.com/Akchiche-Mohamed-Aymen/PRODIGY_WD_03'
         },
+        {
+          projectName : 'Stop Watch',
+          projectPic : 'https://th.bing.com/th/id/OIP.xNmNF2olysMh0cA-yaUSagHaE5?rs=1&pid=ImgDetMain',
+          url :'https://66c473176a737605061a0979--fluffy-sunflower-893096.netlify.app/',
+          gitUrl : 'https://github.com/Akchiche-Mohamed-Aymen/PRODIGY_WD_02.'
+        },
 ]
 function createlink(project , className = ''  , content = 'Github Link')
 {
