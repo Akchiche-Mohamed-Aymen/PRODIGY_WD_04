@@ -180,7 +180,8 @@ footer{
 }
 @media (max-width:650px){
     *{font-family: 500;}
-    .bars{display: block;
+    .bars{
+    display: block;
      position: fixed;
      top: 0;
      z-index: 99999999999;
@@ -197,9 +198,9 @@ footer{
         display: flex;
         flex-direction: column;
         height: fit-content;
-        padding: 7px;
+        padding: 7px 16px;
         margin: 0;
-        gap: 5px; 
+        gap: 20px; 
     }
     section{
         margin-top: 90px;
@@ -226,7 +227,7 @@ footer{
     width: 200px;
     height: 200px;}
     .active{
-        transition: 5s;
+        transition: 2s;
         left: 0;
     }
     #about{
@@ -235,5 +236,8 @@ footer{
     }
     .container{
         padding-right: 23px;
+    }
+    #contact{
+        padding-top: 180px;
     }
 }
